@@ -18,8 +18,6 @@ const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
-db.group = require("./group.model.js")(sequelize, Sequelize);
-db.contract = require("./contract.model.js")(sequelize, Sequelize);
-db.swap = require("./swap.model.js")(sequelize, Sequelize);
+db.user = require("./user.model.js")(sequelize, Sequelize);
 
 module.exports = db;

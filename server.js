@@ -38,10 +38,7 @@ app.get("/", (req, res) => {
 });
 
 // routes
-require("./app/routes/crypto.routes")(app);
-require("./app/routes/group.routes")(app);
-require("./app/routes/contract.routes")(app);
-require("./app/routes/swap.routes")(app);
+require("./app/routes/user.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;

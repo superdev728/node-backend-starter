@@ -2,7 +2,7 @@ module.exports = {
   HOST: "localhost",
   USER: "root",
   PASSWORD: "",
-  DB: "heallbpdb",
+  DB: "zktsunami",
   // HOST: "localhost",
   // USER: "healcxzy_itdb",
   // PASSWORD: "yIWYzjetJxTy",
